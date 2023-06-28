@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Photoneo\PhoXiControl-1.7.5\API\examples\CPP\GetTemperatures\GetTemperaturesExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Photoneo\PhoXiControl-1.7.5\API\examples\CPP\GetTemperatures\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Photoneo\PhoXiControl-1.7.5\API\examples\CPP\GetTemperatures\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4D401D8-5FAD-3BE7-A354-4E1B36C6AC68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

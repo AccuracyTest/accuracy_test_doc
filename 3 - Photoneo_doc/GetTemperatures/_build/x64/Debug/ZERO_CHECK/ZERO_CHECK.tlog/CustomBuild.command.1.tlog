@@ -1,0 +1,10 @@
+^D:\PHOTONEO\PHOXICONTROL-1.7.5\API\EXAMPLES\CPP\GETTEMPERATURES\_BUILD\CMAKEFILES\BB0B85826BB09A64CB39598F87A41B45\GENERATE.STAMP.RULE
+setlocal
+D:\Cmake\bin\cmake.exe -SD:/Photoneo/PhoXiControl-1.7.5/API/examples/CPP/GetTemperatures -BD:/Photoneo/PhoXiControl-1.7.5/API/examples/CPP/GetTemperatures/_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Photoneo/PhoXiControl-1.7.5/API/examples/CPP/GetTemperatures/_build/GetTemperaturesExample.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
